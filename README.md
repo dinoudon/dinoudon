@@ -1,38 +1,33 @@
-# Hi, I'm Aldino Caturrahmanto
+# Hey, I'm Dino
 
-**Mobile Engineer & QA Automation Engineer** based in Malang, Indonesia.
+Android dev by day, test automation nerd by night. Based in Malang, Indonesia.
 
-I build production Android applications and design AI-powered test automation systems. With years of experience shipping mobile apps at scale, I focus on writing reliable, maintainable code — and making sure it stays that way through solid testing.
+I've spent most of my career building and maintaining Android apps — the kind that real people actually use every day. Lately I've been getting deep into test automation with Playwright because I got tired of things breaking in production.
 
-## What I Do
+## What I work with
 
-**Mobile Engineering**
-- Native Android development (Kotlin/Java) — building and maintaining large-scale production apps
-- Cross-platform development with Flutter/Dart
-- Architecture patterns: MVVM, Clean Architecture, Hilt/Dagger DI
-- Migration and modernization: Realm to Room, XML to Jetpack Compose
+**Mobile**
+- Kotlin/Java, Android SDK — been doing this for a while
+- Jetpack Compose, Hilt, Room — migrating legacy codebases to modern stack
+- Flutter when the project calls for it
 
-**QA & Test Automation**
-- End-to-end test automation with Playwright and TypeScript
-- AI-augmented testing: intelligent selector generation, automated test case suggestion, failure root-cause analysis
-- Page Object Model architecture, multi-browser coverage (Chromium, Firefox, WebKit)
-- CI/CD pipeline integration with GitHub Actions and Allure reporting
+**Testing & QA**
+- Playwright + TypeScript for E2E testing
+- Page Object Model, multi-browser runs, Allure reports
+- Built some CLI tools that use LLMs to help with selector generation and failure analysis
+- GitHub Actions for CI/CD
 
-**AI & Automation**
-- Multi-agent orchestration systems powered by Claude AI
-- Inter-agent communication protocols for coordinated agent teams
-- Automated PRD-to-task decomposition and parallel execution pipelines
+**Side projects**
+- Tinkering with multi-agent systems and inter-agent communication protocols
+- Always building random stuff to learn something new
 
-## Featured Projects
+## Projects worth checking out
 
-### [ai-driven-e2e-playwright](https://github.com/dinoudon/ai-driven-e2e-playwright)
-AI-powered E2E test automation suite using Playwright + TypeScript. Features 3 Claude-powered CLI tools for selector generation, test case suggestion, and failure analysis. Full CI/CD with Allure reporting on GitHub Pages.
+**[ai-driven-e2e-playwright](https://github.com/dinoudon/ai-driven-e2e-playwright)** — E2E test suite with LLM-assisted tooling for smarter test automation. Playwright + TypeScript, CI/CD with Allure reporting.
 
-### [agentic-swarm-platform](https://github.com/dinoudon/agentic-swarm-platform)
-Multi-agent orchestration system that slices PRDs into tasks and executes them with specialized Claude AI agents in parallel.
+**[agentic-swarm-platform](https://github.com/dinoudon/agentic-swarm-platform)** — Takes a PRD, breaks it into tasks, runs them in parallel with specialized agents. Fun experiment in orchestration.
 
-### [bifrost-protocol](https://github.com/dinoudon/bifrost-protocol)
-Two-tier hybrid inter-agent communication protocol for Claude Code agent teams. Uses compressed status pings + structured SQLite state via MCP server.
+**[bifrost-protocol](https://github.com/dinoudon/bifrost-protocol)** — Communication protocol for coordinating multiple AI coding agents. SQLite + MCP server under the hood.
 
 ## Tech Stack
 
@@ -45,7 +40,3 @@ Two-tier hybrid inter-agent communication protocol for Claude Code agent teams. 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
----
-
-*Currently exploring the intersection of AI and software quality — building tools that make testing smarter and development faster.*
